@@ -23,11 +23,11 @@ int main()
 	matrix2.addNode(&node222);
 	matrix2.addNode(&node31);
 	cout << matrix2<<endl;
-
+	
 	Matrix matrix3 = matrix1+matrix2;
 	Matrix matrix4 = matrix1 * matrix2;
 	cout << matrix3;
 	cout << endl;
 	cout << matrix4;
-
+	
 }
